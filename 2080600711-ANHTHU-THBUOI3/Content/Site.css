@@ -3,7 +3,19 @@
     padding-bottom: 20px;
 }
 
-/* Set padding to keep content from hitting the edges */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #5d7a5b;
+    background-color: #414641;
+}
+
+    body.navbar-inverse {
+        background-color: #2d5e17;
+        border-color: #080808;
+    }
+
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
@@ -23,8 +35,28 @@ textarea {
     max-width: 280px;
 }
 
-.navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {
-    background-color: #777;
-    border-color: #fff
+.course {
+    list-style: none;
 }
+
+
+    .course > li {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+
+        .course > li .date {
+            text-align: center;
+            background-color: #2d5e17;
+            color: white;
+            width: 60px;
+            border-radius: 8px;
+        }
+
+
+        .course > li .details {
+            position: absolute;
+            top: 0;
+            left: 70px;
+        }

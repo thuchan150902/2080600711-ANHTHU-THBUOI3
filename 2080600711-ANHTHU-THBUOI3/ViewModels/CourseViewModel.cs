@@ -26,5 +26,6 @@ namespace _2080600711_ANHTHU_THBUOI3.ViewModels
         {
             return DateTime.Parse(string.Format("{0} {1}", Date, Time));
         }
+        
     }
 }
